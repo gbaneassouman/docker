@@ -7,10 +7,11 @@
 Les projets présents dans ce groupe font la démonstration théoriques et pratiques des éléments techniques acquis lors du Bootcamp DEVOPS de la promo 15 de EAZYTRANING.
 
 ### jenkins
-Le projet jenkins est le **docker-compose** qui m'a permis de mettre Oeuvre les serveurs jenkins pour mes bésoins de pipeline.
-
+- Le projet jenkins contient un fichier **docker-compose** qui permet de lancer un conteneur jenkins pour mes bésoins de CI.
+- The jenkins project contains a **docker-compose** file which allows you to launch a jenkins container for my CI needs.
 
 ### mini-projet-docker 
 
-Ce projet est mon projet de fin de formation sur le module **DOCKER** dont les objectifs sont de garantir que je suis capable de gérer une infrastructure Docker.
+- Ce projet est mon projet de fin de formation sur le module **DOCKER** dont les objectifs sont de garantir que je suis capable de gérer une infrastructure Docker.
+- This project is my end of training project on the **DOCKER** module whose objectives are to guarantee that I am capable of managing a Docker infrastructure.
 
