@@ -372,5 +372,5 @@ docker push localhost:8080/api-student-list
 ## Conclusion
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@gbaneassouman](https://www.github.com/gbaneassouman)
 
