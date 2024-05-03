@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="screenshots/docker.png"/>
+  <img src="https://github.com/gbaneassouman/images/blob/main/screenshots/docker1.png"/>
 </div>
