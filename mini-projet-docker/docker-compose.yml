@@ -1,0 +1,35 @@
+version: "2.2"
+services:
+  website:
+    container_name: webapp
+    image: php:apache
+    depends_on:
+      - api
+    env_file:
+      - .env
+    ports:
+     - 80:80
+    volumes:
+     - ./website:/var/www/html 
+    networks:
+    - api-network
+
+  api:
+   container_name: student-api
+   image: api-student-list:latest
+   ports:
+    - 127.0.0.1:5000:5000
+   volumes:
+    - ./data/student_age.json:/data/student_age.json
+   networks:
+    - api-network
+
+volumes:
+  data:
+
+networks:
+  api-network:
+    name: api-network
+    driver: bridge
+ 
+  
