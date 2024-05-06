@@ -4,10 +4,10 @@
 
 # Projects DOCKER
 
-Les projets présents dans ce groupe font la démonstration théoriques et pratiques des éléments techniques acquis lors du Bootcamp DEVOPS de la promo 15 de EAZYTRANING.
+Les projets présents dans ce groupe font la démonstration théoriques et pratiques des éléments techniques acquis lors du **Bootcamp DEVOPS** promo 15 de **EAZYTRANING**.
 
 ## 1 - Les travaux pratiques
-- Ce repertoire regroupe l'ensemble des TPS effectués durant le Bootcamp sur docker
+- Ce répertoire regroupe l'ensemble des TPS effectués durant le Bootcamp sur docker
   1. installation de docker
   2. gestion des images
   3. gestion des reséaux
