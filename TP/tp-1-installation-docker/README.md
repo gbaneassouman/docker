@@ -27,7 +27,8 @@ mkdir -p tp-1-installation-docker/{install_docker.sh, Vagrantfile}
 - `vagrantfile`: va contenir les paramètres servant la création de la machine virtuelle.
 
 **Contenu des fichiers**
-- 1. install_docker.sh
+
+**1 - install_docker.sh**
 ```
 #!/bin/bash
 sudo yum -y update
@@ -71,7 +72,7 @@ echo "For this Stack, you will use $(ip -f inet addr show enp0s8 | sed -En -e 's
 - Donner le droit d'exécution sur le script à l'utilisateur
 - Exécution du script
 
-- 2. vagrantfile
+**2 - vagrantfile**
 ```
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
