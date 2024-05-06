@@ -1,4 +1,4 @@
-# TP-3 : Gérez votre stockage persistent
+# TP-4 : Gestion du stockage 
 - Créez un volume de type volumes
 - Créez deux conteneurs ubuntu (ubuntu1 et ubuntu2) et montez le volume créé dans le répertoire /tmp de chacun des conteneurs ubuntu
 - Créez un fichier toto.txt dans le répertoire /tmp de ubuntu1 et vérifie qu'il est bien présent dans /tmp de ubuntu2
