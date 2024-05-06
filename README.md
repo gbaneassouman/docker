@@ -17,3 +17,6 @@ Les projets présents dans ce groupe font la démonstration théoriques et prati
 ## 3 - jenkins
 - Le projet jenkins contient un fichier **docker-compose** qui permet de lancer un conteneur jenkins pour mes bésoins de CI.
 - The jenkins project contains a **docker-compose** file which allows you to launch a jenkins container for my CI needs.
+
+## 4 - MySQL && phpMyadmin
+- déploiement de MySQL et de phpMyadmin à l'aide de docker-compose
