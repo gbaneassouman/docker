@@ -8,6 +8,10 @@ Les projets présents dans ce groupe font la démonstration théoriques et prati
 
 ## 1 - Les travaux pratiques
 - Ce repertoire regroupe l'ensemble des TPS effectués durant le Bootcamp sur docker
+  1. installation de docker
+  2. gestion des images
+  3. gestion des reséaux
+  4. gestion du stockage
 
 ## 2 - mini-projet-docker 
 
