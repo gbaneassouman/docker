@@ -90,10 +90,10 @@ voici ci-dessous les Dockerfiles qui va permet de faire le build des images.
 ```
 FROM python:2.7-buster
 LABEL MAINTAINER "GBANE Assouman (gbane.assouman@gmail.com)"
-WORKDIR /
-COPY ./student_age.py .
+ADD ./student_age.py .
 RUN apt update -y && apt install python-dev python3-dev libsasl2-dev python-dev libldap2-dev libssl-dev -y
 RUN pip install  flask==1.1.2 flask_httpauth==4.1.0 flask_simpleldap python-dotenv==0.14.0
+VOLUME ["/data"]
 EXPOSE 5000
 CMD ["python","./student_age.py"]
 ```
@@ -103,16 +103,16 @@ FROM nginx:latest<br/>
 - <strong>Responsable</strong><br/>
 LABEL maintainer="GBANE Assouman gbane.assouman@gmail.com"
 
-- <strong>Répertoire de stockage de l'API</strong><br/>
-WORKDIR /
-
-- <strong>Copie des fichiers dans le répertoire WORKDIR</strong><br/>
-COPY . .
+- <strong>Copie du script à la racine </strong><br/>
+ ADD ./student_age.py .
 
 - <strong>Installation des dépendances </strong><br/>
 RUN apt update -y && apt install python-dev python3-dev libsasl2-dev python-dev libldap2-dev libssl-dev -y
 
 RUN pip install  flask==1.1.2 flask_httpauth==4.1.0 flask_simpleldap python-dotenv==0.14.0
+
+- <strong>répertoire où sera stocké le fichier student_age.json </strong><br/>
+VOLUME ["/data"]
 
 - <strong>Port d'écoute de l'API </strong><br/>
 EXPOSE 5000
