@@ -18,7 +18,7 @@ services:
    container_name: student-api
    image: api-student-list:latest
    ports:
-    - 127.0.0.1:5000:5000
+    - 5000:5000
    volumes:
     - ./data/student_age.json:/data/student_age.json
    networks:
