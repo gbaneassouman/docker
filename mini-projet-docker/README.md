@@ -370,6 +370,7 @@ docker push localhost:8080/api-student-list
 </div><br/>
 
 ## Conclusion
+Tout au long de ce projet, j’ai eu l’occasion de créer une image Docker personnalisée, de configurer des réseaux et des volumes, et de déployer des applications à l’aide de docker-compose. Dans l’ensemble, ce projet a été une expérience enrichissante qui m’a permis de renforcer mes compétences techniques et de mieux comprendre les principes des microservices.
 ## Authors
 
 - [@gbaneassouman](https://www.github.com/gbaneassouman)
